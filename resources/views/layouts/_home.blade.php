@@ -11,6 +11,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('font-awesome-4.7.0/css/font-awesome.min.css')}}">
     
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    
 
     <title>Rafael Sá</title>
   </head>
