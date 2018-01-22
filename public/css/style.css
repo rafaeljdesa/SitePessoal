@@ -2,3 +2,12 @@
     background-color: darkcyan;
     margin-top: -50px;
 }
+
+#menu{
+    position: relative;
+    margin-bottom: 0;
+}
+
+h3{
+    margin: 50px; 
+}
