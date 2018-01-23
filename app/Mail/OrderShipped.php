@@ -7,18 +7,22 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
+
 class OrderShipped extends Mailable
 {
     use Queueable, SerializesModels;
+
+
+    public $dados;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
-    {
-        //
+
+    public function __construct($dados){
+        $this->dados = $dados;
     }
 
     /**
@@ -26,17 +30,13 @@ class OrderShipped extends Mailable
      *
      * @return $this
      */
-   
-    
-    public function __construct(Order $order){
-        $this->order = $order;
-    }
-   
+      
      public function build()
     {
         
-        return $this->from($order->email)->view('layouts.contato');
-        
-        
+        return $this->from($this->dados->email, $this->dados->nome)
+                    ->subject("Contato do site")
+                    ->view('layouts.contato');
+                
     }
 }

@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/contato', 'PaginaController@contato')->name('contato');
+Route::post('/contato', 'PaginaController@contato')->name('contato');
 

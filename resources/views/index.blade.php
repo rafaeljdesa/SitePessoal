@@ -1,6 +1,15 @@
 @extends('layouts._home')
 @section('content')
 
+
+<!-- Mensagem -->
+@if(session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+@endif
+
+
 <!-- Carousel -->
 <section class="inicio" id="inicio">
     <div class="container bg-light">
@@ -77,12 +86,13 @@
                 <h4>Rafael de Sá</h4>
                 <h5>Desenvolvedor | Administrador de redes | Técnico em Eletrônica e Informática | Futuro Engenheiro de Computação</h5>
                 <p>Apaixonado por tecnologia. Após concluir meu curso técnico em eletrônica tive uma ótima experiência profissional trabalhando em uma empresa que presta assistência técnica de equipamentos de automação comercial e informática. Conforme meu perfil de traballho, tive a oportunidade de conhecer melhor a área de informática e fui responsável pela infraestrutura de TI da empresa, onde fazia toda a parte de administração de redes, servidores e suporte aos colaboradores.</p>
-                <p>Buscando mais conhecimentos na área de TI, iniciei uma graduação em Engenharia de Computação e fiquei completamente apaixonado com a área de programação e desenvolvimento de software. Ainda nesta empresa tive a oportunidade de trabalhar no setor de desenvolvimento, realizando manutenção e implementação de recursos nos sistemas integrados de automação comercial utilizando a linguagem VB6 e administrando bancos de dados SQL Server, Firebird e MySQL. </p>
-                <p>Além disso, procuro sempre estudar novas tendências e tecnologias para estar sempre preparado para o mercado.</p>
+                <p>Buscando mais conhecimentos na área de TI, iniciei uma graduação em Engenharia de Computação e fiquei completamente apaixonado com a área de programação e desenvolvimento de software. Ainda nesta empresa tive a oportunidade de trabalhar no setor de desenvolvimento, realizando manutenção e implementação de recursos nos sistemas integrados de automação comercial utilizando a linguagem VB6, administrando sites e sistemas em WordPress e administrando bancos de dados SQL Server, Firebird e MySQL. </p>
+                <p>Além disso, atuo como freelancer, realizando o desenvolvimento de sites e sistemas, serviços de montagem e manutenção de computadores gamer e desktops convencionais, servidores e configurações de redes residenciais e corporativas.</p>    
+                <p>Nas minhas horas vagas, procuro sempre estudar novas tendências e tecnologias.</p>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="d-flex justify-content-center">
-                    <img class="rounded-circle" src="{{asset('img/perfil.png')}}" alt="">
+                    <img class="rounded-circle mt-4" src="{{asset('img/perfil.png')}}" alt="">
                 </div>
             </div>
     </div>
@@ -101,8 +111,8 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Sites</h5>
+                        <p class="card-text">Desenvolvimento de sites</p>
                     </div>
                 </div>
             </div>
@@ -110,8 +120,8 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Sistemas</h5>
+                        <p class="card-text">Desenvolvimento de sistemas</p>
                     </div>
                 </div>
             </div>
@@ -119,8 +129,17 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Computador Gamer</h5>
+                        <p class="card-text">Montagem e manutenção de computadores preparados para jogos, edição de fotos, vídeos e atividades pesadas.</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">    
+                <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Computador convencional</h5>
+                        <p class="card-text">Montagem e manutenção de computadores para navegação na internet e atividades leves.</p>
                     </div>
                 </div>
             </div>
@@ -128,8 +147,8 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Redes</h5>
+                        <p class="card-text">Configuração de redes corporativas e residenciais.</p>
                     </div>
                 </div>
             </div>
@@ -137,8 +156,8 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Servidores Windows</h5>
+                        <p class="card-text">Configurações gerais de servidores Windows.</p>
                     </div>
                 </div>
             </div>
@@ -146,35 +165,8 @@
                 <div class="card m-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Servidores Linux</h5>
+                        <p class="card-text">Configurações gerais de servidores Linux.</p>
                     </div>
                 </div>
             </div>
