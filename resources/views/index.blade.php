@@ -180,8 +180,7 @@
 
 <section class="contato p-5 bg-info text-light" id="contato">
    <div class="container"> 
-    <div class="row">   
-        
+        <div class="row">       
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                         <h4>Contato</h4>
                         <p><i class="fa fa-map-marker" aria-hidden="true"></i> Rio de Janeiro - RJ</p>
@@ -195,9 +194,8 @@
 
             </div>
         
-    </div>
+        </div>
     </div>
 </section>
-
 
 @endsection

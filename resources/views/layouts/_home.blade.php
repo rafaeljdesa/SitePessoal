@@ -22,15 +22,11 @@
   </head>
   <body>
     
-    <header>
         @include('layouts._nav')
-    </header>
-    
+
         @yield('content')
-    
-    <footer>
+
         @include('layouts._footer')
-    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
