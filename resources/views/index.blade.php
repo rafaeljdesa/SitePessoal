@@ -12,7 +12,7 @@
 
 <!-- Carousel -->
 <section class="inicio" id="inicio">
-    <div class="container bg-light">
+    <!-- <div class="container bg-light"> -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -21,23 +21,23 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{asset('img/code.png')}}" alt="Primeiro slide">
+                    <img class="d-block w-100" src="{{asset('img/carousel-code.png')}}" alt="Primeiro slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Desenvolvimento</h3>
+                        <h2>Desenvolvimento</h2>
                         <p>Desenvolvimento de sistemas e websites</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{asset('img/rede_servidores.jpg')}}" alt="Segundo slide">
+                    <img class="d-block w-100" src="{{asset('img/carousel-rede.png')}}" alt="Segundo slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Redes de computadores</h3>
+                        <h2>Redes de computadores</h2>
                         <p>Redes, servidores e segurança </p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{asset('img/manutencao.png')}}" alt="Terceiro slide">
+                    <img class="d-block w-100" src="{{asset('img/carousel-manutencao.png')}}" alt="Terceiro slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Notebooks e Computadores</h3>
+                        <h2>Computadores e Notebooks</h2>
                         <p>Montagem e manutenção de computadores</p>
                     </div>
                 </div>
@@ -54,13 +54,13 @@
             </a>
             
         </div>    
-    </div>
+    <!-- </div> -->
 
 <!-- Jumbotron -->
 
     <div class="jumbotron p-5">
         <h1 class="display-4">Olá!</h1>
-        <p class="lead">Me chamo Rafael de Sá, sou formado como Técnico em Eletrônica e atualmente estou cursando a graduação em Engenharia de Computação. Sou apaixonado por tecnologia, tenho experiências na área de TI com montagem e manutenção de computadores, administração de redes e desenvolvimento de sistemas e sites.   </p>
+        <p class="lead">Me chamo Rafael de Sá, estou cursando a graduação em Engenharia de Computação e sou formado como Técnico em Eletrônica. Sou apaixonado por tecnologia, tenho experiências na área de TI com desenvolvimento de sistemas e websites, administração de redes e montagem e manutenção de computadores.</p>
         <hr class="my-4">
         <div class="row">
             <div class="col-12">
@@ -109,43 +109,34 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/card-code.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Sites</h5>
-                        <p class="card-text">Desenvolvimento de sites</p>
+                        <h5 class="card-title">Websites e sistemas</h5>
+                        <p class="card-text">Desenvolvimento de websites e sistemas.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/card-joystick.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Sistemas</h5>
-                        <p class="card-text">Desenvolvimento de sistemas</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Computador Gamer</h5>
-                        <p class="card-text">Montagem e manutenção de computadores preparados para jogos, edição de fotos, vídeos e atividades pesadas.</p>
+                        <h5 class="card-title">Computador gamer</h5>
+                        <p class="card-text">Montagem e manutenção de computadores preparados para jogos.</p>
                     </div>
                 </div>
             </div>    
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">    
-                <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Computador convencional</h5>
-                        <p class="card-text">Montagem e manutenção de computadores para navegação na internet e atividades leves.</p>
-                    </div>
-                </div>
-            </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/card-computador-trabalho.png')}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Computador para trabalho</h5>
+                        <p class="card-text">Montagem e manutenção de computadores preparados para programação, edição de fotos, vídeos e atividades pesadas.</p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <div class="card m-2" style="width: 18rem;">
+                    <img class="card-img-top" src="{{asset('img/card-rede.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Redes</h5>
                         <p class="card-text">Configuração de redes corporativas e residenciais.</p>
@@ -154,7 +145,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/card-windows.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Servidores Windows</h5>
                         <p class="card-text">Configurações gerais de servidores Windows.</p>
@@ -163,7 +154,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
                 <div class="card m-2" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('img/code.png')}}" alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('img/card-linux.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Servidores Linux</h5>
                         <p class="card-text">Configurações gerais de servidores Linux.</p>

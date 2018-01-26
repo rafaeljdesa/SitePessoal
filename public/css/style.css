@@ -19,5 +19,7 @@ h3{
 }
 
 .card{
+    box-shadow: -1px 1px 5px black;
+    min-height: 400px;
     opacity: 0;
 }

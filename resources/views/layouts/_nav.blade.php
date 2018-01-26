@@ -2,7 +2,7 @@
     <div class="menu">    
         <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container"> 
-                <a class="navbar-brand" href="#inicio">
+                <a class="navbar-brand" id="logo" href="#inicio">
                     LOGO
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

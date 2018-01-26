@@ -15,6 +15,13 @@ $(document).ready(function(){
         }, 500);
         return false;
     });
+    
+    $('#logo').click(function(){
+        page.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
 
     $('#form-contato').validate({
         rules: {
