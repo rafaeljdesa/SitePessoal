@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    padding-top: 59px;
+  }
+
 #sobre{
     background-color: darkcyan;
     margin-top: -50px;
@@ -13,13 +18,13 @@ h3{
 }
 
 .alert{
-    margin-top: 55px;
+    /* margin-top: 55px; */
     margin-bottom: 0;
     text-align: center;
 }
 
 .card{
     box-shadow: -1px 1px 5px black;
-    min-height: 400px;
-    opacity: 0;
+    min-height: 590px;
+   /* opacity: 0; */
 }

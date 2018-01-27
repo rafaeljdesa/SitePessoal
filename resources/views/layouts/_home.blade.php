@@ -20,10 +20,10 @@
 
     <title>Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ</title>
   </head>
-  <body>
-    
+  <body data-spy="scroll" data-target="#navbar">
+      <header>
         @include('layouts._nav')
-
+      </header>
         @yield('content')
 
         @include('layouts._footer')

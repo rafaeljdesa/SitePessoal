@@ -9,7 +9,6 @@
         </div>
 @endif
 
-
 <!-- Carousel -->
 <section class="inicio" id="inicio">
     <!-- <div class="container bg-light"> -->
@@ -85,7 +84,7 @@
                 <h3 class="text-center">Um pouco sobre mim!</h3>
                 <h4>Rafael de Sá</h4>
                 <h5>Desenvolvedor | Administrador de redes | Técnico em Eletrônica e Informática | Futuro Engenheiro de Computação</h5>
-                <p>Apaixonado por tecnologia. Após concluir meu curso técnico em eletrônica tive uma ótima experiência profissional trabalhando em uma empresa que presta assistência técnica de equipamentos de automação comercial e informática. Conforme meu perfil de traballho, tive a oportunidade de conhecer melhor a área de informática e fui responsável pela infraestrutura de TI da empresa, onde fazia toda a parte de administração de redes, servidores e suporte aos colaboradores.</p>
+                <p>Apaixonado por tecnologia. Após concluir meu curso técnico em eletrônica tive uma ótima experiência profissional trabalhando em uma empresa que presta assistência técnica de equipamentos de automação comercial e informática. Conforme meu perfil de trabalho, tive a oportunidade de conhecer melhor a área de informática e fui responsável pela infraestrutura de TI da empresa, onde fazia toda a parte de administração de redes, servidores e suporte aos colaboradores.</p>
                 <p>Buscando mais conhecimentos na área de TI, iniciei uma graduação em Engenharia de Computação e fiquei completamente apaixonado com a área de programação e desenvolvimento de software. Ainda nesta empresa tive a oportunidade de trabalhar no setor de desenvolvimento, realizando manutenção e implementação de recursos nos sistemas integrados de automação comercial utilizando a linguagem VB6, administrando sites e sistemas em WordPress e administrando bancos de dados SQL Server, Firebird e MySQL. </p>
                 <p>Além disso, atuo como freelancer, realizando o desenvolvimento de sites e sistemas, serviços de montagem e manutenção de computadores gamer e desktops convencionais, servidores e configurações de redes residenciais e corporativas.</p>    
                 <p>Nas minhas horas vagas, procuro sempre estudar novas tendências e tecnologias.</p>
@@ -108,56 +107,95 @@
                 <h3 class="text-center">Serviços</h3>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-code.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Websites e sistemas</h5>
                         <p class="card-text">Desenvolvimento de websites e sistemas.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">HTML5 | CSS3</li>                                           
+                            <li class="list-group-item">PHP | JAVASCRIPT</li>                       
+                            <li class="list-group-item">JQUERY | BOOTSTRAP</li>                       
+                            <li class="list-group-item">WORDPRESS | MYSQL</li>
+                            <li class="list-group-item">OUTROS...</li>                        
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-joystick.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Computador gamer</h5>
                         <p class="card-text">Montagem e manutenção de computadores preparados para jogos.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">INTEL</li>                                           
+                            <li class="list-group-item">AMD</li>                       
+                            <li class="list-group-item">NVIDIA</li>
+                            <li class="list-group-item">OUTROS...</li>                                               
+                        </ul>
                     </div>
                 </div>
             </div>    
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-computador-trabalho.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Computador para trabalho</h5>
                         <p class="card-text">Montagem e manutenção de computadores preparados para programação, edição de fotos, vídeos e atividades pesadas.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">INTEL</li>                                           
+                            <li class="list-group-item">AMD</li>                       
+                            <li class="list-group-item">NVIDIA</li>
+                            <li class="list-group-item">OUTROS...</li>                                               
+                        </ul>
                     </div>
                 </div>
             </div>    
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-rede.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Redes</h5>
                         <p class="card-text">Configuração de redes corporativas e residenciais.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">WI-FI</li>                                           
+                            <li class="list-group-item">DHCP</li>                       
+                            <li class="list-group-item">FIREWALL</li>                                              
+                            <li class="list-group-item">PORTAS</li>
+                            <li class="list-group-item">OUTROS...</li>                                               
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-windows.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Servidores Windows</h5>
-                        <p class="card-text">Configurações gerais de servidores Windows.</p>
+                        <h5 class="card-title">Servidores e desktops Windows</h5>
+                        <p class="card-text">Configurações gerais de servidores e desktops Windows.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">WINDOWS DESKTOP</li>
+                            <li class="list-group-item">WINDOWS SERVER</li> 
+                            <li class="list-group-item">ACTIVE DIRECTORY</li> 
+                            <li class="list-group-item">OUTROS...</li> 
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <div class="card m-2" style="width: 18rem;">
+                <div class="card m-2 mb-2" style="width: 18rem;">
                     <img class="card-img-top" src="{{asset('img/card-linux.png')}}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Servidores Linux</h5>
-                        <p class="card-text">Configurações gerais de servidores Linux.</p>
+                        <h5 class="card-title">Servidores e desktops Linux</h5>
+                        <p class="card-text">Configurações gerais de servidores e desktops Linux.</p>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">CENTOS</li>                                           
+                            <li class="list-group-item">UBUNTU</li>                       
+                            <li class="list-group-item">DEBIAN</li>                                              
+                            <li class="list-group-item">FEDORA</li>                                              
+                            <li class="list-group-item">OUTROS...</li>                                              
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -188,5 +226,4 @@
         </div>
     </div>
 </section>
-
 @endsection

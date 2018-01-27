@@ -1,9 +1,9 @@
-<header>    
+   
     <div class="menu">    
         <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container"> 
                 <a class="navbar-brand" id="logo" href="#inicio">
-                    LOGO
+                    <img src="{{asset('img/logo.png')}}" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,4 +27,4 @@
             </div>    
         </nav>
     </div>
-</header>
+
