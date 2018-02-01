@@ -7,20 +7,20 @@
 
     <!--SEO Geral-->
     <title>Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ</title>
-    <meta name="description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta name="description" content="Desenvolvedor, freelancer, desenvolvimento de sites e sistemas, administrador de redes, técnico em informática e eletrônica - Rio de Janeiro - RJ">
     <link rel="canonical" href="http://www.rafaeldesa.com.br">
     <meta name="author" content="Rafael de Sá">
     <meta name="robots" content="index, follow">
 
     <!-- Google+ / Schema.org -->
     <meta itemprop="name" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
-    <meta itemprop="description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta itemprop="description" content="Desenvolvedor, freelancer, desenvolvimento de sites e sistemas, administrador de redes, técnico em informática e eletrônica - Rio de Janeiro - RJ">
     <meta itemprop="image" content="http://rafaeldesa.com.br/card-code.png">
     <!-- <link href="https://plus.google.com/+SuaPagina" rel="publisher"> -->
     
     <!-- Open Graph Facebook -->
     <meta property="og:title" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
-    <meta property="og:description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ"/>
+    <meta property="og:description" content="Desenvolvedor, freelancer, desenvolvimento de sites e sistemas, administrador de redes, técnico em informática e eletrônica - Rio de Janeiro - RJ"/>
     <meta property="og:url" content="http://www.rafaeldesa.com.br">
     <meta property="og:site_name" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ"/>
     <meta property="og:type" content="website">
@@ -28,7 +28,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:title" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
-    <meta name="twitter:description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta name="twitter:description" content="Desenvolvedor, freelancer, desenvolvimento de sites e sistemas, administrador de redes, técnico em informática e eletrônica - Rio de Janeiro - RJ">
     <meta name="twitter:url" content="http://www.rafaeldesa.com.br">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="http://rafaeldesa.com.br/card-code.png">
