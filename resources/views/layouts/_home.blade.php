@@ -5,6 +5,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--SEO Geral-->
+    <title>Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ</title>
+    <meta name="description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <link rel="canonical" href="http://www.rafaeldesa.com.br">
+    <meta name="author" content="Rafael de Sá">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google+ / Schema.org -->
+    <meta itemprop="name" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta itemprop="description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta itemprop="image" content="http://rafaeldesa.com.br/card-code.png">
+    <!-- <link href="https://plus.google.com/+SuaPagina" rel="publisher"> -->
+    
+    <!-- Open Graph Facebook -->
+    <meta property="og:title" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta property="og:description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ"/>
+    <meta property="og:url" content="http://www.rafaeldesa.com.br">
+    <meta property="og:site_name" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ"/>
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://rafaeldesa.com.br/card-code.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta name="twitter:description" content="Desenvolvedor - Freelancer - Sites - Sistemas - Administrador de redes - Técnico - Rio de Janeiro - RJ">
+    <meta name="twitter:url" content="http://www.rafaeldesa.com.br">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://rafaeldesa.com.br/card-code.png">
+    <!-- <meta name="twitter:creator" content="@estevanmaito"> -->
+    <!-- <meta name="twitter:site" content="@empresa"> -->
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
@@ -17,8 +47,6 @@
     <!--Fav Icon-->
     <link rel="icon" href="{{asset('img/favicon.png')}}" />
     
-
-    <title>Rafael Sá - Desenvolvedor - Administrador de redes - Técnico - Rio de Janeiro - RJ</title>
   </head>
   <body data-spy="scroll" data-target="#navbar">
       <header>
